@@ -19,6 +19,17 @@ Voice typing for macOS &amp; Windows that turns messy speech into clean text rig
 
 > **About this repository:** this is TypeHey's public home for documentation, release notes and feedback. The app itself is closed source. Found a bug or want a feature? [Open an issue](https://github.com/xflow-lab/typehey/issues/new/choose).
 
+## Install
+
+- **Download**: [Mac (Apple silicon)](https://typehey.com/download/mac-arm64) · [Mac (Intel)](https://typehey.com/download/mac-x64) · [Windows](https://typehey.com/download/win)
+- **Homebrew** (macOS):
+
+  ```sh
+  brew install --cask xflow-lab/typehey/typehey
+  ```
+
+The app updates itself after installation.
+
 ## What it does
 
 - **Hold right ⌥ and talk** (Windows: right Ctrl) — let go and the text appears where your cursor is, in any app: chat, email, docs, your IDE, the terminal.

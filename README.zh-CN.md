@@ -17,6 +17,17 @@ macOS 与 Windows 上的语音输入：随口说，整理好的文字直接落�
 
 > **关于这个仓库：** 这里是 TypeHey 对外的文档、更新日志和反馈中心，App 本身不开源。遇到问题或想要新功能？[提一个 Issue](https://github.com/xflow-lab/typehey/issues/new/choose)。
 
+## 安装
+
+- **直接下载**：[Mac（Apple 芯片）](https://typehey.com/download/mac-arm64) · [Mac（Intel）](https://typehey.com/download/mac-x64) · [Windows](https://typehey.com/download/win)
+- **Homebrew**（macOS）：
+
+  ```sh
+  brew install --cask xflow-lab/typehey/typehey
+  ```
+
+装好后 App 会自己更新。
+
 ## 能做什么
 
 - **按住右 ⌥ 说话**（Windows：右 Ctrl）：松手后文字落在光标处，微信、邮件、文档、代码编辑器、终端都能用。

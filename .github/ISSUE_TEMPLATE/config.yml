@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ✉️ Email support / 邮件联系
+    url: mailto:support@qinaxis.cn
+    about: Account, billing or anything private / 账户、付款等不方便公开的问题
+  - name: 🌐 Website / 官网
+    url: https://typehey.com
+    about: Download and pricing / 下载和价格

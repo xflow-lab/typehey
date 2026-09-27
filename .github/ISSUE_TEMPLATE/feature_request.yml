@@ -1,0 +1,14 @@
+name: 💡 Feature request / 提需求
+description: An idea to make TypeHey better / 让 TypeHey 更好用的想法
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do? / 你想做什么？
+      description: The situation and what gets in the way today / 什么场景下、现在哪里不方便
+    validations: { required: true }
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help? / 希望怎么改？

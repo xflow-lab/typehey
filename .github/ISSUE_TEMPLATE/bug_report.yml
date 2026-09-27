@@ -1,0 +1,32 @@
+name: 🐞 Bug report / 报告问题
+description: Something isn't working / 哪里不对劲
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / 发生了什么？
+      description: What did you do, what did you expect, and what happened instead? / 你做了什么、本来期待什么、实际怎样了？
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes:
+      label: TypeHey version / 版本
+      description: Settings → General → Version / 设置 → 通用 → 版本
+      placeholder: "2.0.2"
+    validations: { required: true }
+  - type: dropdown
+    id: os
+    attributes:
+      label: System / 系统
+      options: [macOS (Apple silicon), macOS (Intel), Windows 11, Windows 10, Other / 其他]
+    validations: { required: true }
+  - type: input
+    id: app
+    attributes:
+      label: Which app were you typing into? / 当时在哪个软件里输入？
+      placeholder: "e.g. WeChat, VS Code, Terminal / 比如微信、VS Code、终端"
+  - type: textarea
+    id: more
+    attributes:
+      label: Screenshots or anything else / 截图或其他信息
